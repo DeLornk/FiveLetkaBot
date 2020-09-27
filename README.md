@@ -1,9 +1,15 @@
 # FiveLetkaBot
-***
 Бот, выполняющий элементарные функции To-Do List в Telegram
-***
+
 ### Ставь перед собой задачи и следи за их выполнением в *"Пятилетке*"!
 ![плакат пятилетки](https://apwshop.com/upload/resize_cache/iblock/63c/500_500_1/044.jpg)
+
+Содержание:
+1. [Функции бота](#функции)
+2. [Особенности бота](#особенности)
+3. [Реализация](#реализация)
+4. [Инструкция по запуску](#инструкция-по-запуску)
+
 ## Функции:
 - /start - начало общения с ботом
 - /new_item - добавление новой задачи в список
@@ -19,3 +25,16 @@
 
 ## Реализация:
 Для реализации бота используется [TelegramBotAPI](https://github.com/eternnoir/pyTelegramBotAPI)
+
+
+## Инструкция по запуску:
+1. Необходимо создать бота с помощью @bofather в телеграмме и получить его токен. [Подробнее](https://tlgrm.ru/docs/bots#botfather)
+2. Открыть *5LetkaMain.py* и **TOKEN** присвоить значение своего токена
+  ```python
+  TOKEN = ''  # сюда вставлять свой токен, как str
+  ```
+3. Установить pyTelegramBotAPI. [Подробнее](https://github.com/eternnoir/pyTelegramBotAPI#getting-started)
+4. Запустить *5LetkaMain.py*. Здесь есть несколько путей:
+  а) Через консоль. [Подробнее](https://ru.wikihow.com/%D0%B7%D0%B0%D0%BF%D1%83%D1%81%D1%82%D0%B8%D1%82%D1%8C-%D1%84%D0%B0%D0%B9%D0%BB-Python-%D1%81-%D0%BF%D0%BE%D0%BC%D0%BE%D1%89%D1%8C%D1%8E-%D0%9A%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D0%BD%D0%BE%D0%B9-%D1%81%D1%82%D1%80%D0%BE%D0%BA%D0%B8-Windows#:~:text=%D0%92%D0%B2%D0%B5%D0%B4%D0%B8%D1%82%D0%B5%20%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D1%83%20%C2%ABpython%C2%BB%20%D0%B8%20%D0%B8%D0%BC%D1%8F,my%20script.py%22%20).
+  б) Через IDE (среду разработки)
+5. Запустить Telegram и открыть диалог с вашим ботом  
