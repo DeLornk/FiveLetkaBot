@@ -1,5 +1,5 @@
 # IgnoreWorkFiles
-.ignoreFile
+ignoreFile.py
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
